@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<manifest 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.efefer.testapp"
+  android:versionCode="0"
+  android:versionName="1"
+>
+
+  <application
+    android:label="This is application label">
+
+    <activity
+      android:name="com.efefer.testapp.MainActivity"
+      android:label="This is activity label">
+
+      <intent-filter>
+        <category android:name="android.intent.category.LAUNCHER" />
+        <action android:name="android.intent.action.MAIN" />
+      </intent-filter>
+
+    </activity>
+
+  </application>
+
+
+</manifest>
