@@ -1,0 +1,11 @@
+<resources>
+
+  <string name="app_name">Hello Android from efefer</string>
+
+  <string name="hello_msg">Hello Android, I am efefer</string>
+
+  <string name="menu_settings">Settings</string>
+
+  <string name="title_activity_main">This is the title</string>
+
+</resources>

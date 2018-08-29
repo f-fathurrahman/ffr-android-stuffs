@@ -15,6 +15,7 @@ TEMP*
 *.class
 
 # Generated files
+R.java
 bin/
 gen/
 out/
