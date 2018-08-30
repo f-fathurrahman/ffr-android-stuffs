@@ -27,7 +27,7 @@ $AAPT package -f -m -F bin/testapp.unaligned.apk -M AndroidManifest.xml -S res -
 $AAPT add bin/testapp.unaligned.apk classes.dex
 
 echo "Aligning and signing APK..."
-$APKSIGNER sign --ks mykey.keystore bin/testapp.unaligned.apk
+$APKSIGNER sign --ks ../mykey.keystore bin/testapp.unaligned.apk
 $ZIPALIGN -f 4 bin/testapp.unaligned.apk bin/testapp.apk
 
 #if [ "$1" == "test" ]; then
